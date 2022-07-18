@@ -39,7 +39,7 @@ switch ($_GET["op"]) {
 
 		while ($reg = $rspta->fetch_object()) {
 			$data[] = array(
-				"0" => '<button class="btn btn-warning" onclick="mostrar(' . $reg->id_product . ')"><i class="fas fa-pencil-alt"></i></button>',
+				"0" => '<button class="btn btn-warning" onclick="mostrar(' . $reg->id_product . ')"><i class="fa fa-pencil-alt"></i></button>',
 
 				"1" => $reg->Name,
 				"2" => $reg->Price,
